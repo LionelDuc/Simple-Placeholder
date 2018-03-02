@@ -6,7 +6,7 @@
         <p>Ville referente : <?php echo $bulletin['ville'];?></p>
         <p><?php echo $bulletin['meteo'];?></p>
         <p><?php echo $bulletin['contenu'];?></p>
-        <p><?php  $bulletin['date'];?></p>
+        <p><?php echo $bulletin['date'];?></p>
     <?php
     endforeach;
     ?>
